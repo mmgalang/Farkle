@@ -21,6 +21,7 @@
 		9ACBACF41887248600B09BFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACBACD61887248600B09BFA /* UIKit.framework */; };
 		9ACBACFC1887248600B09BFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACBACFA1887248600B09BFA /* InfoPlist.strings */; };
 		9ACBACFE1887248600B09BFA /* FarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBACFD1887248600B09BFA /* FarkleTests.m */; };
+		9ACBAD09188724AE00B09BFA /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBAD08188724AE00B09BFA /* DieLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		9ACBACF91887248600B09BFA /* FarkleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FarkleTests-Info.plist"; sourceTree = "<group>"; };
 		9ACBACFB1887248600B09BFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ACBACFD1887248600B09BFA /* FarkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarkleTests.m; sourceTree = "<group>"; };
+		9ACBAD07188724AE00B09BFA /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DieLabel.h; path = ../DieLabel.h; sourceTree = "<group>"; };
+		9ACBAD08188724AE00B09BFA /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DieLabel.m; path = ../DieLabel.m; sourceTree = "<group>"; };
+		9ACBAD0A18872E8E00B09BFA /* DieLabelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DieLabelDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,9 @@
 				9ACBACE41887248600B09BFA /* Main.storyboard */,
 				9ACBACE71887248600B09BFA /* ViewController.h */,
 				9ACBACE81887248600B09BFA /* ViewController.m */,
+				9ACBAD0A18872E8E00B09BFA /* DieLabelDelegate.h */,
+				9ACBAD07188724AE00B09BFA /* DieLabel.h */,
+				9ACBAD08188724AE00B09BFA /* DieLabel.m */,
 				9ACBACEA1887248600B09BFA /* Images.xcassets */,
 				9ACBACD91887248600B09BFA /* Supporting Files */,
 			);
@@ -252,6 +259,7 @@
 				9ACBACE91887248600B09BFA /* ViewController.m in Sources */,
 				9ACBACE31887248600B09BFA /* AppDelegate.m in Sources */,
 				9ACBACDF1887248600B09BFA /* main.m in Sources */,
+				9ACBAD09188724AE00B09BFA /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +468,7 @@
 				9ACBAD031887248600B09BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ACBAD041887248600B09BFA /* Build configuration list for PBXNativeTarget "FarkleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				9ACBAD061887248600B09BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
