@@ -12,6 +12,8 @@
 @interface DieLabel : UILabel
 
 @property id<DieLabelDelegate> delegate;
+@property BOOL scored;
+@property BOOL preScored;
 
 -(void)roll;
 

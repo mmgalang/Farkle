@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>47A134A1-8B62-4B89-8A82-9E7D19E3508D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Farkle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B439C30D-1273-4933-B602-DD1458C6E258</key>
+		<string>https://github.com/mmgalang/Farkle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Farkle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B439C30D-1273-4933-B602-DD1458C6E258</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mmgalang/Farkle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B439C30D-1273-4933-B602-DD1458C6E258</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B439C30D-1273-4933-B602-DD1458C6E258</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Farkle</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DieLabel.h"
 
 
 @protocol DieLabelDelegate

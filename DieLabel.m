@@ -9,16 +9,7 @@
 #import "DieLabel.h"
 
 @implementation DieLabel
-@synthesize delegate;
-
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }
-    return self;
-}
+@synthesize delegate, scored, preScored;
 
 -(IBAction)labelWasTapped:(id)sender
 {
@@ -29,16 +20,5 @@
 {
     self.text = [NSString stringWithFormat:@"%i",(arc4random()%6+1)];
 }
-
-
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
 
 @end
